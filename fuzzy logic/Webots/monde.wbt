@@ -1,0 +1,51 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.4516481041413752 0.25082125171494085 -0.8562141611265558 2.253881067986417
+  position 1.60782057873292 1.9897918048219407 3.2642890597013765
+}
+TexturedBackground {
+  luminosity 0
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.00647905 0.148481 0
+  floorSize 1.5 1.5
+  floorTileSize 0.25 0.25
+}
+WoodenBox {
+  translation 0.25 0.21 0
+  size 1 0.4 0.1
+}
+WoodenBox {
+  translation 0.1 -0.19 0
+  name "wooden box(1)"
+  size 0.7 0.4 0.1
+}
+E-puck {
+  hidden position_0_0 86545.73288536549
+  hidden position_0_1 95278.21222441291
+  hidden linearVelocity_0 0.0398516143579573 -0.003767927101335276 2.7567808595450934e-06
+  hidden angularVelocity_0 0.000974086231578767 0.0004447341714233982 0.5045506775969989
+  hidden rotation_1 0 1 0 1.138464273866668
+  hidden linearVelocity_1 0.02686662759582651 -0.0025964558566834617 5.406650293076816e-08
+  hidden angularVelocity_1 0.12360144011420568 1.2809976532948597 0.5019200640246777
+  hidden rotation_2 0 -1 0 0.009773658336126468
+  hidden linearVelocity_2 0.05281874061191618 -0.004948480288082583 -2.9809832714652576e-07
+  hidden angularVelocity_2 0.2535860034399177 2.7022744301196755 0.5054333987414785
+  translation -0.16654604121405794 0.8328163693382264 -6.648012171980335e-05
+  rotation 0.0007809213447605328 -0.015046160502041842 0.9998864951663263 -0.08113291658279032
+  controller "my_controller"
+  controllerArgs [
+    ""
+  ]
+}
